@@ -6,11 +6,12 @@
   "license": "MIT",
   "main": "stream_server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "coffee server.coffee"
   },
   "dependencies": {
     "ejs"    : "0.8.x",
-    "sequent": ">= 0.1.2"
+    "sequent": ">= 0.1.2",
+    "coffeescript": "*"
   },
   "engines": {
     "node": ">= 0.12.0"
